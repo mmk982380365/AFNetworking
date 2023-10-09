@@ -504,9 +504,9 @@
 
 - (void)testHiddenBasicAuthentication {
     __weak XCTestExpectation *expectation = [self expectationWithDescription:@"Request should finish"];
-    [self.sessionManager.requestSerializer setAuthorizationHeaderFieldWithUsername:@"user" password:@"password"];
+    [self.sessionManager.requestSerializer setAuthorizationHeaderFieldWithUsername:@"user" paword:@"paword"];
     [self.sessionManager
-     GET:@"hidden-basic-auth/user/password"
+     GET:@"hidden-basic-auth/user/paword"
      parameters:nil
      headers:nil
      progress:nil

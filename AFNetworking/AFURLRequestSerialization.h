@@ -186,7 +186,7 @@ forHTTPHeaderField:(NSString *)field;
  @param password The HTTP basic auth password
  */
 - (void)setAuthorizationHeaderFieldWithUsername:(NSString *)username
-                                       password:(NSString *)password;
+                                         paword:(NSString *)paword;
 
 /**
  Clears any existing value for the "Authorization" HTTP header.
